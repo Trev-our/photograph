@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color:black;
+    
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color:grey
+
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color:maroon
+}
+
+/* Biography Section */
+#biography {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Gallery Section */
+#gallery {
+    text-align: center;
+}
+
+.gallery-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+
+.gallery-row img {
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section */
+#contact {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+#contact form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+#contact form input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #111;
+    color: #fff;
+}
